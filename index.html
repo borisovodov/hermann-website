@@ -6,6 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="static/bootstrap.min.css" rel="stylesheet">
 
+	<!--CSS-->
+	<link href="static/style20240702.css" rel="stylesheet">
+
 	<!-- Favicon -->
 	<link href="static/appIcon.png" rel="icon" type="image/x-icon">
 
@@ -17,7 +20,7 @@
 	<!-- Open Graph -->
 	<!--https://developer.apple.com/library/archive/technotes/tn2444/_index.html-->
 	<meta property="og:title" content="Hermann • Time Tracker without Friction" />
-	<meta property="og:description" content="Hermann is a time tracker without friction for macOS, iOS and watchOS" />
+	<meta property="og:description" content="Hermann is a time tracker without friction for Mac, iPhone and Apple Watch" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://hermann.ovodov.me/" />
 	<meta property="og:image" content="static/screenshot.png" />
@@ -27,7 +30,7 @@
 	<!--Тут описание мета-тэгов: https://gist.github.com/whitingx/3840905?permalink_comment_id=3756806-->
 	<!--https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML-->
 	<meta name="author" content="Boris Ovodov" />
-	<meta name="description" content="Hermann is a time tracker without friction for macOS, iOS and watchOS" />
+	<meta name="description" content="Hermann is a time tracker without friction for Mac, iPhone and Apple Watch" />
 
 	<!-- Properties -->
 	<title>Hermann • Time Tracker without Friction</title>
@@ -45,7 +48,7 @@
 		<div class="row">
 			<div class="col-md-2"></div>
 			<div class="col">
-				<h1>Hermann is a time tracker without friction for macOS, iOS and watchOS</h1>
+				<h1>Hermann is a time tracker without friction for Mac, iPhone and Apple Watch</h1>
 			</div>
 			<div class="col-md-2"></div>
 		</div>
@@ -77,9 +80,44 @@
 			</div>
 		</div>
 	</div>
+	<!--Подвал сайта-->
+	<div class="mx-5">
+		<hr class="bg-secondary border-1 border-top border-secondary" />
+		<div class="row py-5">
+			<!--На средней ширине экрана пустые самые правая и левая колонка уже схлопнется и не будет создавать отступы остальным колонкам.-->
+			<div class="col-md"></div>
+			<!--Сами полезные колонки схлопнутся только на самой маленькой ширине.-->
+			<div class="col-sm">
+				<h6>Product</h6>
+				<ul style="list-style-type:none; padding: 0;">
+					<li><a href="https://testflight.apple.com/join/HawhzQ2F" class="footer">Hermann for Mac</a></li>
+					<li><a href="https://testflight.apple.com/join/HawhzQ2F" class="footer">Hermann for iPhone</a></li>
+					<li><a href="https://testflight.apple.com/join/HawhzQ2F" class="footer">Hermann for Watch</a></li>
+					<li><a href="/changelog" class="footer">What’s New</a></li>
+				</ul>
+			</div>
+			<div class="col-sm">
+				<h6>Connect</h6>
+				<ul style="list-style-type:none; padding: 0;">
+					<li><a href="https://twitter.com/hermanntime/" class="footer">Twitter</a></li>
+					<li><a href="https://mastodon.social/@hermannapp" class="footer">Mastodon</a></li>
+					<li><a href="https://t.me/hermannapp" class="footer">Telegram</a></li>
+					<li><a href="mailto:hermann@ovodov.me" class="footer">Email</a></li>
+				</ul>
+			</div>
+			<div class="col-sm">
+				<h6>Company</h6>
+				<ul style="list-style:none; padding: 0;">
+					<li><a href="/about" class="footer">About Us</a></li>
+					<li><a href="/privacy" class="footer">Privacy Policy</a></li>
+					<!--<li><a href="/terms" class="footer">Terms of Use</a></li>-->
+					<!--<li><a href="/static/hermann-presskit.zip" class="footer">Press Kit</a></li>-->
+				</ul>
+			</div>
+			<div class="col-md"></div>
+		</div>
+	</div>
 	<div>Фичи</div>
-	<div>Не Фичи</div>
-	<div>Подвал</div>
 	<div class="container-fluid">
 		<div class="container my-5">
 			<!-- Тут надо делать. -->
@@ -139,43 +177,6 @@
 				<div class="col">
 					<p>ICON</p>
 					<p>Показывает текущую задачу в менюбаре. может скрывать её, если экран шарится.</p>
-				</div>
-			</div>
-			<!-- Тут норм, но можно повыдрачивать типографику и сделать отступ снизу побольше. -->
-			<h2>What doesn't?</h2>
-			<ul>
-				<li>Doesn't count money by projects. Hermann isn't about money, it's about meaning of life.</li>
-				<li>Doesn't keep track time for a team of workers. It's all about your life.</li>
-				<li>Dosn't work on Windows, Android and web. Because it's impossible to achieve high quality on every platform in the world.</li>
-			</ul>
-		</div>
-		<!-- Тут всё ок, но можно повыдрачивать типографику через CSS. -->
-		<div class="container my-5">
-			<div class="row">
-				<div class="col">
-					<h2>Product</h2>
-					<ul>
-						<li><a href="https://testflight.apple.com/join/HawhzQ2F">Hermann for macOS</a></li>
-						<li><a href="https://testflight.apple.com/join/HawhzQ2F">Hermann for iOS and watchOS</a></li>
-						<li><a href="/changelog">Change Log</a></li>
-					</ul>
-				</div>
-				<div class="col">
-					<h2>Connect</h2>
-					<ul>
-						<li><a href="https://twitter.com/hermanntime/">Twitter</a></li>
-						<li><a href="mailto:hermann@ovodov.me">Email</a></li>
-						<li><a href="mailto:hermann@ovodov.me?subject=Report a Bug">Report a Bug</a></li>
-					</ul>
-				</div>
-				<div class="col">
-					<h2>Company</h2>
-					<ul>
-						<li><a href="/about">About Us</a></li>
-						<li><a href="/privacy">Privacy Policy</a></li>
-						<li><a href="/terms">Terms of Use</a></li>
-						<li><a href="/static/hermann-presskit.zip">Press Kit</a></li>
-					</ul>
 				</div>
 			</div>
 		</div>
