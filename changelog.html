@@ -1,1 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Bootstrap -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="static/bootstrap.min.css" rel="stylesheet">
 
+	<!--CSS-->
+	<link href="static/style20240702.css" rel="stylesheet">
+
+	<!-- Favicon -->
+	<link href="static/appIcon.png" rel="icon" type="image/x-icon">
+
+	<!--Apple Meta Tags-->
+	<!--https://developer.apple.com/library/archive/technotes/tn2444/_index.html-->
+	<!--https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html#//apple_ref/doc/uid/TP40002051-CH3-SW4-->
+	<link href="static/appIcon.png" rel="apple-touch-icon">
+
+	<!-- Open Graph -->
+	<!--https://developer.apple.com/library/archive/technotes/tn2444/_index.html-->
+	<meta property="og:title" content="Hermann • Time Tracker without Friction" />
+	<meta property="og:description" content="Hermann is a time tracker without friction for Mac, iPhone and Apple Watch" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://hermann.ovodov.me/changelog" />
+	<meta property="og:image" content="static/screenshot.png" />
+	<meta property="og:site_name" content="Hermann" />
+	<meta property="og:locale" content="en_US" />
+
+	<!--Тут описание мета-тэгов: https://gist.github.com/whitingx/3840905?permalink_comment_id=3756806-->
+	<!--https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML-->
+	<meta name="author" content="Boris Ovodov" />
+	<meta name="description" content="Hermann is a time tracker without friction for Mac, iPhone and Apple Watch" />
+
+	<!-- Properties -->
+	<title>Hermann • Time Tracker without Friction</title>
+</head>
+<body>
+    <!--Заголовок страницы-->
+    <div class="mx-5">
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h1>Changelog</h1>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+    </div>
+    <!--Перечень релиз ноутсов-->
+    <div class="mx-5">
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.19 (210)</h2>
+                <ul>
+                    <li>Добавлена возможность изменять и переименовывать текущую задачу прямо в контролах таймера.</li>
+                    <li>Добавлена возможность перемещать итемы в сайдбаре на macOS.</li>
+                    <li>Изменён дизайн формы поисковой выдачи на macOS.</li>
+                    <li>Изменён дизайн формы быстрого поиска на macOS.</li>
+                </ul>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.18 (202)</h2>
+                <ul>
+                    <li>Добавлен график с саммари по айтемам.</li>
+                    <li>В графиках добавлена группировка по типам айтемов.</li>
+                    <li>В графиках добавлена возможность скрывать значения без категории.</li>
+                    <li>Объединены список тайм энтри и отображение статистики.</li>
+                    <li>Иконка заменена на серую подложку на watchOS.</li>
+                    <li>Скрыл импорт.</li>
+                    <li>Добавил сохранение таймзоны при создании тайм энтри.</li>
+                    <li>При обучении модели теперь учитываются таймзоны.</li>
+                </ul>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.17 (155)</h2>
+                <ul>
+                    <li>Возвращена работа бэкграунд задач для обучения рекомендательной модели и обновления частотности задач. Задачи теперь отрабатывают раз в месяц, а не раз день.</li>
+                    <li>Теперь обновление интервала таймера происходит в 20 раз реже, что лучше для производительности.</li>
+                    <li>Исправлена проблема постоянного пересчёта формы редактирования тайм энтри.</li>
+                    <li>Изменён механизм построения поисковой выдачи зон ответственности, проектов и задач при их поиске от методов вычисления к прямым запросам к БД.</li>
+                    <li>Добавлен график соотношения количества времени, потраченного на задачи, которые дают силы и нет.</li>
+                    <li>Оптимизировано получение данных из рекоммендера и сёрчера.</li>
+                    <li>Изменён механизм выбора цветов для зон ответственности.</li>
+                    <li>Добавлена возможность фильтровать тайм энтрисы по месяцам, годам и за всё время.</li>
+                </ul>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.16 (148)</h2>
+                <ul>
+                    <li>Зонам ответственности теперь можно назначать цвет.</li>
+                    <li>Добавлена возможность указывать задачам их эмоциональную окраску.</li>
+                    <li>Сэнсори фидбек теперь работает только при ручном запуске и остановке таймера.</li>
+                </ul>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.15</h2>
+                <ul>
+                    <li>Обеспечена поддержка работы на macOS 14, iOS 17 и watchOS 10.</li>
+                </ul>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.14</h2>
+                <ul>
+                    <li>Улучшено отображение списка тайм энтри.</li>
+                    <li>Добавлена возможность указания длительности тайм энтри при его создании и редактировании.</li>
+                    <li>Обновлена иконка приложения.</li>
+                </ul>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.13</h2>
+                <ul>
+                    <li>Разработано приложение для watchOS.</li>
+                    <li>Кнопка смещения старта текущего таймера добавлена прямо в плеер на iOS.</li>
+                </ul>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.12</h2>
+                <ul>
+                    <li>Восстановлена работа рекомендательной системы.</li>
+                    <li>Реализован базовый импорт данных в приложение.</li>
+                    <li>Решён ряд проблем с открытием формы быстрого поиска на macOS.</li>
+                    <li>Добавлено логирование.</li>
+                </ul>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.11</h2>
+                <ul>
+                    <li>Добавлена форма быстрого глобального поиска.</li>
+                    <li>Добавлен меню бар.</li>
+                </ul>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.10</h2>
+                <ul>
+                    <li>Добавлен поиск родителей при создании задачи и редактировании тайм энтри на iOS.</li>
+                    <li>Стал возможен поиск задач по названию родителя.</li>
+                    <li>Ускорена работа с поиском.</li>
+                </ul>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.9</h2>
+                <p>Добавлены смещение старта задачи в таймере и экспорт записей в TSV.</p>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.8</h2>
+                <p>Добавлены рекомендации задач (в том числе с помощью ML), а также поиск задач с ранжированием результатов поиска.</p>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.7</h2>
+                <p>Добавлен таймер.</p>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.6</h2>
+                <p>Добавлено отображение текущего таймера в менюбаре на macOS.</p>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.5</h2>
+                <p>Обеспечена поддержка работы на macOS 13 и iOS 16.</p>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.4</h2>
+                <p>Добавлена возможность редактирования названий у задач, проектов и зон ответственности.</p>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.3</h2>
+                <p>Добавлена возможность отображения бэйджа у иконки приложения при запущенном таймере.</p>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.2</h2>
+                <p>Добавлена возможность ручной работы с тайм энтри.</p>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+			<div class="col">
+				<h2>v0.1</h2>
+                <p>Первая продакшн-версия.</p>
+			</div>
+			<div class="col-md-2"></div>
+        </div>
+    </div>
+	<!--Шапка сайта-->
+	<div class="mx-5">
+		<!--Иконка-->
+		<div class="row py-5">
+			<div class="col">
+				<img src="static/appIcon.png" class="mx-auto d-block" style="height: 7em;">
+			</div>
+		</div>
+		<!--Название приложения-->
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col">
+				<h1>Hermann is a time tracker without friction for Mac, iPhone and Apple Watch</h1>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+		<!--Описание приложения-->
+		<div class="row pb-5">
+			<!--Если ширина окна меньше `md`, то тогда эти пустые колонки слева и справа от центральной колонки просто перенесутся и не будут мешать.-->
+			<div class="col-md-2"></div>
+			<div class="col">
+				<p>Hermann allows you to answer the questions “where is the time of my life going?” and “am I doing the things that give me strength?” This app is not about making more money. It's about the meaning of life.</p>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+		<!--Кнопка покупки-->
+		<div class="row pb-3">
+			<div class="col text-center">
+				<a class="btn btn-primary" href="https://testflight.apple.com/join/HawhzQ2F" role="button"  style="border-radius:23px;">Get through TestFlight</a>
+			</div>
+		</div>
+		<!--Описание кнопки покупки-->
+		<div class="row">
+			<div class="col text-center text-secondary">
+				<p>While Hermann is in public beta, you can use it for free through TestFlight.<br>Requires macOS 15 Sequoia, iOS 18, watchOS 11 or later.</p>
+			</div>
+		</div>
+		<!--Основной скриншот-->
+		<div class="row pb-5">
+			<div class="col">
+				<img src="static/screenshot.png" class="mx-auto d-block img-fluid">
+			</div>
+		</div>
+	</div>
+	<!--Описание фич. Конечно по хорошему нужно это сделать с картинками / гифками и отдельно показывать на macOS и iOS, но блин, это же MVP и вообще сил нету этим заниматься. Просто сделаю блоки и норм.-->
+	<div class="mx-5">
+		<div class="row pb-5">
+			<div class="col-md-2"></div>
+			<div class="col">
+				<h3>Quick Task Search</h3>
+				<p>Hermann is designed to let you effortlessly indicate what you're currently working on with minimal clicks. On macOS, a single command brings up the quick search window, allowing you to instantly find the task you need. On iOS, the search field is right at your fingertips. Smart suggestions help you find the right tasks even without typing a search query.</p>
+			</div>
+			<div class="col">
+				<h3>Machine Learning Suggestions</h3>
+				<p>The time tracker predicts what you're working on based on the current day of the week, time, and your previous tasks.</p>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+		<div class="row pb-5">
+			<div class="col-md-2"></div>
+			<div class="col">
+				<h3>Not charts, but the meaning of life</h3>
+				<p>Hermann isn't designed to make you earn more money. Its purpose is to help you lead a happier life; to spend your precious time on activities that make your life fulfilling and meaningful. Instead of showing charts about dollars earned, app will tell you how much time you've spent on tasks that energize you versus tasks that drain you.</p>
+			</div>
+			<div class="col">
+				<h3>Getting Tasks Done with Even Thousands of Them</h3>
+				<p>Time tracker optimised on work with thousands tasks. They all will be accessible on any device (even on Apple Watch). And you never need to go to the web for statistics.</p>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+		<div class="row pb-5">
+			<div class="col-md-2"></div>
+			<div class="col">
+				<h3>Privacy First</h3>
+				<p>We respect your privacy. That's why all your data store in your own iCloud Drive and developers don't have access to them at all. iCloud also provides seamless data integration between all your devices.</p>
+			</div>
+			<div class="col">
+				<h3>Native</h3>
+				<p>Hermann is native for Apple ecosystem. It provides high speed, low memory and battery consumption.</p>
+				<p><i>In the near future, support will be introduced for Complications, Widgets, Actions in Control Center, Spotlight, Shortcuts, Siri Suggestions, and Apple Intelligence.</i></p>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+	<!--Презентационное видео. Были проблемы с позиционированием по центру, решил их втупую скопировав код с https://every-door.app. Сам очень смутно понимаю, почему это помогло.-->
+	<div class="mx-5">
+		<div class="row pb-5">
+			<div class="col-md-2"></div>
+			<div class="col">
+				<div class="embed-responsive embed-responsive-16by9" style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pY12iOxJ2r4?rel=0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+	<!--Подвал сайта-->
+	<div class="mx-5">
+		<hr class="bg-secondary border-1 border-top border-secondary" />
+		<div class="row py-5">
+			<!--На средней ширине экрана пустые самые правая и левая колонка уже схлопнется и не будет создавать отступы остальным колонкам.-->
+			<div class="col-md"></div>
+			<!--Сами полезные колонки схлопнутся только на самой маленькой ширине.-->
+			<div class="col-sm">
+				<h6>Product</h6>
+				<ul style="list-style-type:none; padding: 0;">
+					<li><a href="https://testflight.apple.com/join/HawhzQ2F" class="footer">Hermann for Mac</a></li>
+					<li><a href="https://testflight.apple.com/join/HawhzQ2F" class="footer">Hermann for iPhone</a></li>
+					<li><a href="https://testflight.apple.com/join/HawhzQ2F" class="footer">Hermann for Watch</a></li>
+					<li><a href="/changelog" class="footer">What’s New</a></li>
+				</ul>
+			</div>
+			<div class="col-sm">
+				<h6>Connect</h6>
+				<ul style="list-style-type:none; padding: 0;">
+					<li><a href="https://x.com/hermanntime/" class="footer">X</a></li>
+					<li><a rel="me" href="https://mastodon.social/@hermannapp" class="footer">Mastodon</a></li>
+					<li><a href="https://t.me/hermannapp" class="footer">Telegram</a></li>
+					<li><a href="mailto:hermann@ovodov.me" class="footer">Email</a></li>
+				</ul>
+			</div>
+			<div class="col-sm">
+				<h6>Company</h6>
+				<ul style="list-style:none; padding: 0;">
+					<li><a href="/about" class="footer">About Us</a></li>
+					<li><a href="/privacy" class="footer">Privacy Policy</a></li>
+					<!--<li><a href="/terms" class="footer">Terms of Use</a></li>-->
+					<!--<li><a href="/static/hermann-presskit.zip" class="footer">Press Kit</a></li>-->
+				</ul>
+			</div>
+			<div class="col-md"></div>
+		</div>
+	</div>
+	<script src="static/bootstrap.bundle.min.js"></script>
+</body>
+</html>
