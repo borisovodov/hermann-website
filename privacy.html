@@ -1,6 +1,90 @@
-<html>
-  <body>
-    Introduction: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Bootstrap -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="static/bootstrap.min.css" rel="stylesheet">
+
+	<!--CSS-->
+	<link href="static/style20240702.css" rel="stylesheet">
+
+	<!-- Favicon -->
+	<link href="static/appIcon.png" rel="icon" type="image/x-icon">
+
+	<!--Apple Meta Tags-->
+	<!--https://developer.apple.com/library/archive/technotes/tn2444/_index.html-->
+	<!--https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html#//apple_ref/doc/uid/TP40002051-CH3-SW4-->
+	<link href="static/appIcon.png" rel="apple-touch-icon">
+
+	<!-- Open Graph -->
+	<!--https://developer.apple.com/library/archive/technotes/tn2444/_index.html-->
+	<meta property="og:title" content="Privacy Policy | Hermann" />
+	<meta property="og:description" content="????" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://hermann.ovodov.me/privacy" />
+	<meta property="og:image" content="static/screenshot.png" />
+	<meta property="og:site_name" content="Hermann | Time Tracker without Friction" />
+	<meta property="og:locale" content="en_US" />
+
+	<!--Тут описание мета-тэгов: https://gist.github.com/whitingx/3840905?permalink_comment_id=3756806-->
+	<!--https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML-->
+	<meta name="author" content="Boris Ovodov" />
+	<meta name="description" content="?????" />
+
+	<!-- Properties -->
+	<title>Privacy Policy | Hermann</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg" style="border-bottom: 1px solid rgb(230, 230, 230)">
+		<div class="container">
+			<!--Ссылки на главную страницу-->
+			<a class="navbar-brand" href="/">
+				<img src="static/appIcon.png" width="30" height="30" alt="">
+				<span class="align-middle">Hermann</span>
+			</a>
+			<!--Кнопка для просмотра меню на мобилке-->
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!--Ссылки на вложенные страницы-->
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item pr-2">
+						<a class="nav-link" href="/releases">What’s New</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://testflight.apple.com/join/HawhzQ2F">Download</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="mx-5">
+		<!--Заголовок страницы-->
+		<div class="row pt-5">
+			<div class="col-md-2"></div>
+			<div class="col">
+				<h1>Privacy Policy</h1>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+		<!--Описание страницы-->
+		<div class="row pb-5">
+			<div class="col-md-2"></div>
+			<div class="col">
+				<p>???</p>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+	<!--Перечень релиз ноутсов-->
+	<div class="mx-5">
+		<div class="row pb-5">
+			<div class="col-md-2"></div>
+			<div class="col">
+				<p>
+                    Introduction: 
 
 
 
@@ -68,5 +152,48 @@ By using our site or apps, you consent to our privacy policy.
 Contacting Us
 
 If you have questions regarding this privacy policy, you may email alex@lonelybytes.com.
-  </body>
+                </p>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+	<!--Подвал сайта-->
+	<div class="mx-5">
+		<hr class="bg-secondary border-1 border-top border-secondary" />
+		<div class="row py-5">
+			<!--На средней ширине экрана пустые самые правая и левая колонка уже схлопнется и не будет создавать отступы остальным колонкам.-->
+			<div class="col-md"></div>
+			<!--Сами полезные колонки схлопнутся только на самой маленькой ширине.-->
+			<div class="col-sm">
+				<h6>Product</h6>
+				<ul style="list-style-type:none; padding: 0;">
+					<li><a href="https://testflight.apple.com/join/HawhzQ2F" class="footer">Hermann for Mac</a></li>
+					<li><a href="https://testflight.apple.com/join/HawhzQ2F" class="footer">Hermann for iPhone</a></li>
+					<li><a href="https://testflight.apple.com/join/HawhzQ2F" class="footer">Hermann for Watch</a></li>
+					<li><a href="/releases" class="footer">What’s New</a></li>
+				</ul>
+			</div>
+			<div class="col-sm">
+				<h6>Connect</h6>
+				<ul style="list-style-type:none; padding: 0;">
+					<li><a href="https://x.com/hermanntime/" class="footer">X</a></li>
+					<li><a rel="me" href="https://mastodon.social/@hermannapp" class="footer">Mastodon</a></li>
+					<li><a href="https://t.me/hermannapp" class="footer">Telegram</a></li>
+					<li><a href="mailto:hermann@ovodov.me" class="footer">Email</a></li>
+				</ul>
+			</div>
+			<div class="col-sm">
+				<h6>Company</h6>
+				<ul style="list-style:none; padding: 0;">
+					<!--<li><a href="/about" class="footer">About Us</a></li>-->
+					<li><a href="/privacy" class="footer">Privacy Policy</a></li>
+					<!--<li><a href="/terms" class="footer">Terms of Use</a></li>-->
+					<!--<li><a href="/static/hermann-presskit.zip" class="footer">Press Kit</a></li>-->
+				</ul>
+			</div>
+			<div class="col-md"></div>
+		</div>
+	</div>
+	<script src="static/bootstrap.min.js"></script>
+</body>
 </html>
