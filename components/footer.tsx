@@ -9,7 +9,7 @@ export function Footer() {
     return (
         <>
             <Divider className="mt-5" />
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto py-5">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto p-10">
                 <div>
                     <h6 className="font-semibold mb-3">Product</h6>
                     <ul className="space-y-2">
