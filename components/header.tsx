@@ -23,7 +23,7 @@ export function Header() {
                 />
                 <NavbarBrand>
                     <Link href="/" className="flex items-center text-lg text-inherit no-underline">
-                        <Image src="/app-icon-dark.png" width="20" height="20" alt="Icon" />
+                        <Image src="/app-icon-light.png" width="20" height="20" alt="Icon" />
                         <p className="font-semibold ml-4">Hermann</p>
                     </Link>
                 </NavbarBrand>

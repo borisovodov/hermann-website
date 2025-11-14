@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function HomePage() {
 	return (
 		<div className="px-10">
-			<Image src="/app-icon-dark.png" width="64" height="64" alt="App icon" className="mx-auto py-10" />
+			<Image src="/app-icon-light.png" width="64" height="64" alt="App icon" className="mx-auto py-10" />
 			<div className="max-w-4xl mx-auto py-8">
 				<PageHeader
 					title="A time tracker without friction for Mac, iPhone and Apple Watch"
