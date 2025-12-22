@@ -1,7 +1,7 @@
 import "@/globals.css";
 
 import type { Metadata } from "next";
-// import { PT_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 
 import { Provider } from "@/app/providers";
 import { Footer, Header } from "@/components";
@@ -19,10 +19,10 @@ export const metadata: Metadata = {
 	},
 };
 
-// const sans = PT_Sans({
-// 	weight: ["400", "700"],
-// 	subsets: ["cyrillic", "latin"],
-// });
+const inter = Inter({
+	subsets: ["latin"],
+	display: "swap",
+})
 
 export default function RootLayout({
 	children,
@@ -30,7 +30,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en" suppressHydrationWarning>
+		<html lang="en" className={inter.className} suppressHydrationWarning>
 			<head />
 			<body>
 				<Header />
