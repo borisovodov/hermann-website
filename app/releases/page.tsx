@@ -8,6 +8,20 @@ export default function ReleasesPage() {
 				description="Our release history to keep users informed of improvements."
 			/>
 			<Release
+				version="0.28.0"
+				releaseDate="January 16, 2023"
+				requirements="macOS 26 Tahoe, iOS 26, watchOS 26 or newer"
+				changes={[
+					"Added daily and weekly statistics views.",
+					"Added display of total hours logged for the selected period.",
+					"Added daily total hours display in the time entries list.",
+					"Statistics view settings are now saved.",
+					"Added timer controls to the macOS menu bar.",
+					"Removed the ability to group entries by projects.",
+					"Fixed an issue where switching the period filter type did not navigate to the current period.",
+				]}
+			/>
+			<Release
 				version="0.27.1"
 				releaseDate="November 10, 2025"
 				requirements="macOS 26 Tahoe, iOS 26, watchOS 26 or newer"
