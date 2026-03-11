@@ -7,9 +7,20 @@ export default function ReleasesPage() {
 				title="Release Notes"
 				description="Our release history to keep users informed of improvements."
 			/>
+			{/* <Release
+				version="0.28.1"
+				releaseDate="March 12, 2026"
+				requirements="macOS 26 Tahoe, iOS 26, watchOS 26 or newer"
+				changes={[
+					"Fixed an issue with incorrect counting of recent tasks.",
+					"Fixed task list jitter when tapping a task on macOS.",
+					"Fixed vertical scrolling in the statistics view on watchOS.",
+					"Improved the color picker."
+				]}
+			/> */}
 			<Release
 				version="0.28.0"
-				releaseDate="January 16, 2023"
+				releaseDate="January 16, 2026"
 				requirements="macOS 26 Tahoe, iOS 26, watchOS 26 or newer"
 				changes={[
 					"Added daily and weekly statistics views.",
