@@ -7,7 +7,7 @@ export default function ReleasesPage() {
 				title="Release Notes"
 				description="Our release history to keep users informed of improvements."
 			/>
-			{/* <Release
+			<Release
 				version="0.28.1"
 				releaseDate="March 12, 2026"
 				requirements="macOS 26 Tahoe, iOS 26, watchOS 26 or newer"
@@ -17,7 +17,7 @@ export default function ReleasesPage() {
 					"Fixed vertical scrolling in the statistics view on watchOS.",
 					"Improved the color picker."
 				]}
-			/> */}
+			/>
 			<Release
 				version="0.28.0"
 				releaseDate="January 16, 2026"
