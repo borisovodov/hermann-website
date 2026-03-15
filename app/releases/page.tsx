@@ -9,7 +9,7 @@ export default function ReleasesPage() {
 			/>
 			<Release
 				version="0.28.1"
-				releaseDate="March 12, 2026"
+				releaseDate="March 14, 2026"
 				requirements="macOS 26 Tahoe, iOS 26, watchOS 26 or newer"
 				changes={[
 					"Fixed an issue with incorrect counting of recent tasks.",
