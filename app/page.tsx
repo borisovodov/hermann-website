@@ -19,11 +19,10 @@ export default function HomePage() {
 						color="primary"
 						radius="full"
 						className="mt-10"
-						href="https://testflight.apple.com/join/gABvbUHH"
+						href="https://apps.apple.com/us/app/hermann-time-tracker/id6480348420"
 					>
-						Get through TestFlight
+						Download
 					</Button>
-					<p className="mt-4 text-gray-500"><small>While Hermann is in public beta, you can use it for free through TestFlight.</small></p>
 					<p className="text-gray-500"><small>Requires macOS 26 Tahoe, iOS 26, watchOS 26 or newer.</small></p>
 				</div>
 			</div>

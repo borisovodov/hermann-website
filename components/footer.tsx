@@ -13,9 +13,9 @@ export function Footer() {
                 <div>
                     <h6 className="font-semibold mb-3">Product</h6>
                     <ul className="space-y-2">
-                        <li><Link className="text-gray-500" href="https://testflight.apple.com/join/gABvbUHH">Hermann for Mac</Link></li>
-                        <li><Link className="text-gray-500" href="https://testflight.apple.com/join/gABvbUHH">Hermann for iPhone</Link></li>
-                        <li><Link className="text-gray-500" href="https://testflight.apple.com/join/gABvbUHH">Hermann for Watch</Link></li>
+                        <li><Link className="text-gray-500" href="https://apps.apple.com/us/app/hermann-time-tracker/id6480348420">Hermann for Mac</Link></li>
+                        <li><Link className="text-gray-500" href="https://apps.apple.com/us/app/hermann-time-tracker/id6480348420">Hermann for iPhone</Link></li>
+                        <li><Link className="text-gray-500" href="https://apps.apple.com/us/app/hermann-time-tracker/id6480348420">Hermann for Watch</Link></li>
                         <li><Link className="text-gray-500" href="/releases">What’s New</Link></li>
                     </ul>
                 </div>

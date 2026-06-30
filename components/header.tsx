@@ -36,7 +36,7 @@ export function Header() {
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link color="foreground" href="https://testflight.apple.com/join/gABvbUHH">
+                    <Link color="foreground" href="https://apps.apple.com/us/app/hermann-time-tracker/id6480348420">
                         Download
                     </Link>
                 </NavbarItem>
@@ -57,7 +57,7 @@ export function Header() {
                     <Link
                         className="w-full"
                         color="foreground"
-                        href="https://testflight.apple.com/join/gABvbUHH"
+                        href="https://apps.apple.com/us/app/hermann-time-tracker/id6480348420"
                         size="lg"
                     >
                         Download
