@@ -23,7 +23,7 @@ export default function HomePage() {
 					>
 						Download
 					</Button>
-					<p className="text-gray-500"><small>Requires macOS 26 Tahoe, iOS 26, watchOS 26 or newer.</small></p>
+					<p className="text-gray-500 mt-5"><small>Requires macOS 26 Tahoe, iOS 26, watchOS 26 or newer.</small></p>
 				</div>
 			</div>
 			<Image src="/screenshot.png" width="1280" height="720" alt="Screenshot" className="mx-auto py-5" />
