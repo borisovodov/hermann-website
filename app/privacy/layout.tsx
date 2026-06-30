@@ -11,6 +11,9 @@ export const metadata: Metadata = {
 		siteName: "Hermann | Time tracker without friction",
 		locale: "en_US",
 	},
+	itunes: {
+		appId: "6480348420",
+	},
 };
 
 export default function PrivacyLayout({
