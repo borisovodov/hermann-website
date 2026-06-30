@@ -8,6 +8,14 @@ export default function ReleasesPage() {
 				description="Our release history to keep users informed of improvements."
 			/>
 			<Release
+				version="1.0.0"
+				releaseDate="June 25, 2026"
+				requirements="macOS 26 Tahoe, iOS 26, watchOS 26 or newer"
+				changes={[
+					"First App Store release.",
+				]}
+			/>
+			<Release
 				version="0.28.1"
 				releaseDate="March 14, 2026"
 				requirements="macOS 26 Tahoe, iOS 26, watchOS 26 or newer"
