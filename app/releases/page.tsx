@@ -5,7 +5,7 @@ export default function ReleasesPage() {
 		<div className="max-w-4xl mx-auto p-10">
 			<PageHeader
 				title="Release Notes"
-				description="Our release history to keep users informed of improvements."
+				description="Learn about new features and updates."
 			/>
 			<Release
 				version="1.0.0"
