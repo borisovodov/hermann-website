@@ -8,13 +8,13 @@ import { Footer, Header } from "@/components";
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://hermann.ovodov.me"),
-	title: "Hermann | Time tracker without friction",
-	description: "Hermann is a time tracker without friction for Mac, iPhone and Apple Watch",
+	title: "Hermann | Zero-friction time tracker",
+	description: "Hermann is a zero-friction time tracker for iPhone, Mac and Apple Watch. ML predicts your tasks. Charts reveal what truly makes you happy — or doesn't.",
 	openGraph: {
-		title: "Hermann | Time tracker without friction",
-		description: "Hermann is a time tracker without friction for Mac, iPhone and Apple Watch",
+		title: "Hermann | Zero-friction time tracker",
+		description: "Hermann is a zero-friction time tracker for iPhone, Mac and Apple Watch. ML predicts your tasks. Charts reveal what truly makes you happy — or doesn't.",
 		url: "https://hermann.ovodov.me/",
-		siteName: "Hermann | Time tracker without friction",
+		siteName: "Hermann | Zero-friction time tracker",
 		locale: "en_US",
 	},
 	itunes: {
