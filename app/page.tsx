@@ -12,7 +12,7 @@ export default function HomePage() {
 				<PageHeader
 					title="Zero-friction time tracker for iPhone, Mac and Apple Watch"
 				/>
-				<p className="mt-5">Hermann is a time tracker built for humans — not project managers. No projects, no clients, no clutter. Just type what you’re doing and go. One tap to start, one tap to stop. And when you’re ready to reflect, Hermann shows you something deeper than billable hours: it answers the questions “where is the time of my life going?” and “am I doing the things that make me happy?” This app is not about making more money. It’s about the meaning of life.</p>
+				<p className="mt-5">Hermann answers the questions “where is the time of my life going?” and “am I doing the things that make me happy?” This app is not about making more money. It’s about the meaning of life.</p>
 				<div className="text-center">
 					<Button
 						size="lg"
