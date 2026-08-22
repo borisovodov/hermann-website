@@ -177,7 +177,7 @@ export default function ReleasesPage() {
 				releaseDate="August 30, 2024"
 				requirements="macOS 14 Sonoma, iOS 17, watchOS 10 or newer"
 				changes={[
-					"Recommendations updates on macOS now occur more frequently.",
+					"Recommendation updates on macOS now occur more frequently.",
 				]}
 			/>
 			<Release
@@ -221,7 +221,7 @@ export default function ReleasesPage() {
 				releaseDate="February 9, 2024"
 				requirements="macOS 14 Sonoma, iOS 17, watchOS 10 or newer"
 				changes={[
-					"Tasks can be assigned an emotional perception.",
+					"Tasks can be assigned an emotional tone.",
 					"Areas of responsibility can be assigned a color.",
 					"Sensory feedback now only works when the timer is started and stopped manually.",
 				]}
@@ -250,7 +250,7 @@ export default function ReleasesPage() {
 				requirements="macOS 13 Ventura, iOS 16, watchOS 9 or newer"
 				changes={[
 					"Created watchOS app.",
-					"The button for shifting the start of the current timer has been added to the player on iOS.",
+					"The button for shifting the start of the current timer has been added to the timer screen on iOS.",
 				]}
 			/>
 			<Release
@@ -260,7 +260,7 @@ export default function ReleasesPage() {
 				changes={[
 					"Logging added.",
 					"Improved speed of the recommendation system.",
-					"Fixed several issues with opening quick search window.",
+					"Fixed several issues with opening the quick search window.",
 				]}
 			/>
 			<Release
