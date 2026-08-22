@@ -8,7 +8,16 @@ export default function ReleasesPage() {
 				description="Learn about new features and updates."
 			/>
 			<Release
-				version="1.0.0"
+				version="26.1.0"
+				releaseDate="August 21, 2026"
+				requirements="macOS 26 Tahoe, iOS 26, watchOS 26 or newer"
+				changes={[
+					"Added Russian language support.",
+					"Added the ability to create and edit time entries on Apple Watch.",
+				]}
+			/>
+			<Release
+				version="26.0.0"
 				releaseDate="June 25, 2026"
 				requirements="macOS 26 Tahoe, iOS 26, watchOS 26 or newer"
 				changes={[
