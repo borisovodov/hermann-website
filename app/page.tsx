@@ -26,7 +26,7 @@ export default function HomePage() {
 					<p className="text-gray-500 mt-5"><small>Requires macOS 26 Tahoe, iOS 26, watchOS 26 or newer.</small></p>
 				</div>
 			</div>
-			<Image src="/screenshot.png" width="1280" height="720" alt="Screenshot" className="mx-auto py-5" />
+			<Image src="/image.png" width="1280" height="720" alt="Screenshot" className="mx-auto py-5" />
 			<div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto py-10">
 				<div>
 					<h3 className="font-semibold text-lg mb-2">Zero-Friction Tracking</h3>
