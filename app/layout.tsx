@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 		url: "https://hermann.ovodov.me/",
 		siteName: "Hermann | Zero-friction time tracker",
 		locale: "en_US",
-		images: "/image.png",
+		images: "https://hermann.ovodov.me/image.png",
 	},
 	itunes: {
 		appId: "6480348420",
